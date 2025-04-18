@@ -63,3 +63,7 @@ Route::prefix('vendor')->middleware('auth:vendor')->group(function () {
 });
 
 
+// admin route
+
+require __DIR__.'/admin/admin_auth.php';
+
